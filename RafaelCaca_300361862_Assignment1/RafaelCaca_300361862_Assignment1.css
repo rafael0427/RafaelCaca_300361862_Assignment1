@@ -1,0 +1,101 @@
+body{
+  background-color: #565fae;
+  font-family: Helvetica, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.cf:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.pagination-container {
+    margin: 50px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.page {
+    margin: 50px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 50px;
+}
+
+  .contact-item{
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+    .contact-details{
+      width: 50%;
+      float: left;
+    }
+
+      .contact-details .avatar{
+        width: 40px;
+        height: auto;
+        border-radius: 20px;
+        float: left;
+        margin-right: 14px
+      }
+
+      .contact-details h3{
+        margin: 4px 0 2px 0;
+        font-weight: bold;
+        color: #4ba6c3;
+      }
+
+    .joined-details{
+      width: 50%;
+      float: left;
+      text-align: right;
+    }
+
+      .joined-details .date{
+        margin-top: 15px;
+        display: block;
+      }
+
+
+.pagination. {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination li {
+    display: flex;
+    justify-content: center;
+}
+
+.avatarContainer {
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    padding: 1rem 0;
+    justify-content: center;
+}
+button {
+    margin: 0 5px;
+    background-color: darkslategrey;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+
+
+
